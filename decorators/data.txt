@@ -1,0 +1,9 @@
+Sep 11 2022 23:24:25_/_flat_generator_/_([['a', 'b', 'c'], ['d', 'e', 'f', ['h', [5, [5, [87, [98, 86]]]], 67], False], [1, 2, None]],)_/_{}_/_<generator object flat_generator at 0x102985a80>
+Sep 11 2022 23:24:25_/_flat_generator_/_(['a', 'b', 'c'],)_/_{}_/_<generator object flat_generator at 0x102b9cac0>
+Sep 11 2022 23:24:25_/_flat_generator_/_(['d', 'e', 'f', ['h', [5, [5, [87, [98, 86]]]], 67], False],)_/_{}_/_<generator object flat_generator at 0x102b9cac0>
+Sep 11 2022 23:24:25_/_flat_generator_/_(['h', [5, [5, [87, [98, 86]]]], 67],)_/_{}_/_<generator object flat_generator at 0x102b9ca50>
+Sep 11 2022 23:24:25_/_flat_generator_/_([5, [5, [87, [98, 86]]]],)_/_{}_/_<generator object flat_generator at 0x102b9cb30>
+Sep 11 2022 23:24:25_/_flat_generator_/_([5, [87, [98, 86]]],)_/_{}_/_<generator object flat_generator at 0x102b9cba0>
+Sep 11 2022 23:24:25_/_flat_generator_/_([87, [98, 86]],)_/_{}_/_<generator object flat_generator at 0x102b9cc10>
+Sep 11 2022 23:24:25_/_flat_generator_/_([98, 86],)_/_{}_/_<generator object flat_generator at 0x102b9cc80>
+Sep 11 2022 23:24:25_/_flat_generator_/_([1, 2, None],)_/_{}_/_<generator object flat_generator at 0x102b9cac0>
