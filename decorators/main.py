@@ -1,13 +1,16 @@
 from collections.abc import Iterable
 from func import logger
+import os
 
 nested_list_iter = [
     ['a', 'b', 'c'],
-    ['d', 'e', 'f', ['h', [5, [5, [87, [98, 86]]]] , 67], False],
+    ['d', 'e', 'f', ['h', [5, [5, [87, [98, 86]]]], 67], False],
     [1, 2, None],
 ]
+log = os.path.dirname(os.path.abspath(__file__))
 
-@logger('data.txt')
+
+@logger(log)
 def flat_generator(iter_list):
     """этот ГЕНЕРАТОР Обрабатывает списки любой вложенности"""
     for el in iter_list:
@@ -16,6 +19,7 @@ def flat_generator(iter_list):
                 yield sub_el
         else:
             yield el
+
 
 if __name__ == '__main__':
     for item in flat_generator(nested_list_iter):
