@@ -9,7 +9,7 @@ def logger(path):
             args_ = args
             kwargs_ = kwargs
             result = function(*args, **kwargs)
-            with open('data.txt', 'a') as file:
+            with open(path + 'data.txt', 'a') as file:
                 file.write(f'{date}_/_{name}_/_{args_}_/_{kwargs}_/_{result}\n')
             return result
         return upd_function
