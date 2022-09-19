@@ -7,7 +7,7 @@ nested_list_iter = [
     ['d', 'e', 'f', ['h', [5, [5, [87, [98, 86]]]], 67], False],
     [1, 2, None],
 ]
-log = os.path.dirname(os.path.abspath(__file__))
+log = os.path.abspath('logs.txt')
 
 
 @logger(log)
